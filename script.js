@@ -35,13 +35,13 @@ cost = 15, profit = 5, salesPrice = cost + profit;
 console.log(salesPrice);
 
 
-//  strings
+ strings
 
-// let firstName = " Olatunde",  Surname = "Tobi", fullName = Surname + firstName;
-// console.log(fullName + " is a big boy")
+let firstName = " Olatunde",  Surname = "Tobi", fullName = Surname + firstName;
+console.log(fullName + " is a big boy")
 
-let firstName = `Olatunde`,  Surname = `Tobi`, fullName = Surname + firstName;
-console.log(`${fullName} is a big boy`);
+let firstNam = `Olatunde`,  Surnam = `Tobi`, fullNam = Surname + firstName;
+console.log(`${fullNam} is a big boy`);
 
 // AND Operator
 
@@ -123,4 +123,4 @@ const checkLeap = (year) => {
 const answer = checkLeap(2000)
 
 alert(answer);
-// console.log(answer);
+console.log(answer);
